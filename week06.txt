@@ -10,5 +10,11 @@ git log --oneline
 
 2교시
 
+
 리눅스 명령어
 ....
+
+깃명령어
+git fetch
+git pull
+
