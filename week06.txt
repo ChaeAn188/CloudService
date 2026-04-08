@@ -10,6 +10,6 @@ git log --oneline
 
 2교시
 
-깃 명령어
+깃명령어
 git fetch
 git pull
