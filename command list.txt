@@ -1,0 +1,35 @@
+리눅스 
+ls (폴더 보기 명령어)
+ls -a (숨긴 파일 포함 폴더 보기 명령어)
+ls -l (폴더 자세히 보기 명령어)
+touch 파일명 (파일이 없는 경우 빈 파일 생성)
+cat 파일명 (텍스트 파일 CLI 뷰어, 편집시간 변경)
+clear (현재 화면 클리어)
+cd 폴더명 (현재 폴더에서 지정한 하위 폴더로 이동)
+cd .. (현재 폴더에서 바로 상위 폴더로 이동)
+history (그동안 입력 했던 명령어 리스트업 해줌)
+vi 편집기 화면이 나타나면 j(아래), k(위로), q(편집기 탈출)
+
+깃
+git init (현재 폴더를 깃이 관리하는 폴더로 지정, git 파일이 생성됨)
+git status (현재 폴더의 변화를 감지하고 상태를 보고함)
+git add 파일명 (지정한 파일을 스테이지에 올림)
+git add . (현재 폴더의 모든 파일을 스테이지에 올림
+git commit -m "커밋 메세지" (스테이지에 올린 파일들을 커밋 기록함. 해시코드가 부여되고 커밋한 아이디/이메일/커밋시간 등을 남김)
+git config --global user.email "사용자 이메일 주소" (깃 사용자 이메일 주소 등록)
+git config --global user.name "사용자 필명" (깃 사용자 아이디 등록)
+git log (커밋 기록 보기 명령어. 해시코드/아이디/이메일/커밋시간/커밋메세지 확인 가능)
+git checkout 해시코드 (해시코드 커밋으로 시간여행)
+git branch -m master main (master branch를 main branch로 변경)
+git remote add origin 본인원격리포지토리주소
+git reomte -v 등록확인
+git push -u origin main (원격 리포지토리에 업로드 및 동기화)
+git push (원격 리포지토리에 업로드)
+git clone 주소 (원격 리포지토리 이름과 똑같은 새 폴더를 만들고 그 안에 프로젝트 복제)
+git clone 주소 . (새 폴더를 만들지 않고, 현재 내가 이쓰 폴더에 바로 파일들을 복제)
+git config --list (현재 설정된 사용자 이름, 이메일, 기본 브랜치 등 모든 설정값을 한눈에 보여줌)
+git remote remove origin (현재 내 컴퓨터와 연결된 원격 리포지토리의 연결 고리 삭제)
+git log --oneline (커밋 내역을 한 줄씩 요약해서 보여줌)
+git fetch (원격 리포지토리에 최신 변경 사항이 있는지 확인만 하고 가져옴, 소스에 바로 동기화는 아님)
+git pull (원격 리포지토리의 내용을 가져와서 내 로컬 코드에 바로 합침)
+git log --oneline --graph 브랜치가 합쳐지거나 갈라지는 모습을 나뭇가지 모양(그래프)으로 시각화해서 보여줌
