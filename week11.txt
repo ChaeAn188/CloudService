@@ -1,0 +1,10 @@
+1교시
+10주차 복습
+
+명령어
+ipconfig
+ping ip 주소 또는 url주소
+ping -t ip주소 또는 url주소
+(chmod 권한변경 명령어는 git bash 쉘에서는 실제 동작 안됨. 리얼 리눅스 환경에서는 가능/시험x)
+
+2교시
